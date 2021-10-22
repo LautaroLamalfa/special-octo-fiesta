@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include("templates/head", {}) %>
+    <body>
+        <div class="container">
+            <h2>Productos</h2>
+                <ul>
+                    <% data.forEach(function(pr){ %>
+                        <li><%= pr.name %> - $<%= pr.price %></li>
+
+                    <%  }) %>
+                </ul>
+        </div>
+
+    </body>
+</html>
