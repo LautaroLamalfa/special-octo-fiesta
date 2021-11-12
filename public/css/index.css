@@ -1,0 +1,15 @@
+body {
+  background-color: khaki;
+}
+
+div {
+  text-align: center;
+}
+
+h2 {
+  padding: 120px;
+}
+
+.height {
+  min-height: 100vh;
+}
